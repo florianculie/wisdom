@@ -26,17 +26,17 @@ jobs:
           node-version: '16.x'
       - name: Install dependencies
         run: |
-          cd arenacalc 
+          cd  wisdom 
           npm install
       - name: Build
         run: |
-          cd arenacalc
+          cd  wisdom
           npm run build:ci
       - name: Archive Build
         uses: actions/upload-artifact@v3.1.2
         with: 
           name: deploy_dist
-          path: arenacalc/dist
+          path:  wisdom/dist
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -53,4 +53,4 @@ jobs:
         with:
           token: ${{ secrets.GH_ACTION_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: dist/arenacalc
+          FOLDER: dist/wisdom
