@@ -15,5 +15,6 @@
 {"sentence": "Quand l'arbo est repliée, ça a pas l'air si compliqué."},
 {"sentence": "c'est un workaround temporaire mais on sait pas pour combien de temps."},
 {"sentence": "Est-ce que c'est en C que j'avais vu les singletons?"},
-{"sentence": "j'ajoute ça au chrono pour donner l'info au run qui devra communiquer un arrêt prod de 48h au top merci 🙂"}
+{"sentence": "j'ajoute ça au chrono pour donner l'info au run qui devra communiquer un arrêt prod de 48h au top merci 🙂"},
+{"sentence": "On a fait un audit un peu de nos serveurs pour identifier ce qui posait problème d'un point de vue sécurité potentielle..</br>Le répertoire TEEXMA est ressorti..</br>On peut le supprimer?"}
 ]
