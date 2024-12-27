@@ -6,6 +6,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
+  font-family: Arial
 }
 
 .container {
@@ -15,4 +16,41 @@ body {
 .center {
   font-size: 2em; /* Ajustez la taille du texte selon vos besoins */
   color: #EC6408;
+}
+
+.reload-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #F6AD83;
+  background-color: #EC6408;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.reload-button:hover {
+  background-color: #F6AD83;
+  color: #EC6408;
+}
+
+footer {
+  background-color: #EC6408; /* Couleur de fond de la charte */
+  color: #F6AD83; /* Couleur de texte utilisée précédemment */
+  text-align: center; /* Centrer le texte */
+  padding: 10px 0; /* Espacement vertical */
+  font-family: Arial, sans-serif; /* Police Arial */
+  font-size: 1.2em; /* Taille légèrement augmentée pour visibilité */
+  position: fixed; /* Fixer le footer en bas de la page */
+  bottom: 0; /* Positionner en bas */
+  width: 100%; /* Prendre toute la largeur */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Légère ombre pour donner du relief */
+}
+
+footer:hover {
+  background-color: #F6AD83; /* Inverse la couleur de fond */
+  color: #EC6408; /* Inverse la couleur du texte */
 }

@@ -1,5 +1,7 @@
 <div class="container">
   <div class="center">
-    <p>❝{{ displayedSentence }}❝</p>
+    <p>❝{{ displayedSentence }}❞</p>
   </div>
+  <button (click)="displayRandomSentence()" class="reload-button">Une autre !</button>
+  <button (click)="displayNewestSentence()" class="reload-button">La dernière !</button>
 </div>
