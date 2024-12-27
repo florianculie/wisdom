@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import WisdomSentencesJson from '../assets/WisdomSentences.json';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
@@ -16,36 +16,43 @@ export class AppComponent implements OnInit {
   displayedSentence: string = 'bonjour les ptits potes';
   title = 'wisdom';
 
-  constructor(private route: ActivatedRoute, private toastr: ToastrService) {
+  constructor(private route: ActivatedRoute,
+    private toastr: ToastrService,
+    private router: Router)
+  {
     this.wisdomSentences = WisdomSentencesJson;
   }
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
-      // Vérifier si le paramètre 'randomIndex' existe
       const randomIndexFromUrl = params['id'];
-      if(randomIndexFromUrl !== undefined && (randomIndexFromUrl-1 <= 0 || randomIndexFromUrl-1 >= this.wisdomSentences.length)){
-        this.toastr.warning("I See you Picaut");
-        this.displayRandomSentence();
+      if(randomIndexFromUrl !== undefined && (randomIndexFromUrl <= 0 || randomIndexFromUrl >= this.wisdomSentences.length+1)){
+        this.toastr.warning("I see you Picaut 👁️");
+        this.displayIfErrorSentence();
       } else {
-        // Si 'randomIndex' est présent, l'utiliser directement
         const index = Number(randomIndexFromUrl) - 1;
         if (!isNaN(index) && index >= 0 && index < this.wisdomSentences.length) {
           this.displayedSentence = this.wisdomSentences[index].sentence;
         } else {
-          this.displayRandomSentence(); // Si l'index est invalide, choisir un random
+          this.displayIfErrorSentence();
         }
       }
     });
   }
 
-  displayRandomSentence() {
+  displayIfErrorSentence() {
     // Générer un index aléatoire parmi les id des citations
-    const randomIndex = Math.floor(Math.random() * this.wisdomSentences.length);
+    const randomIndex = Math.floor(1 + Math.random() * this.wisdomSentences.length);
     this.displayedSentence = this.wisdomSentences[randomIndex].sentence;
   }
 
+  displayRandomSentence() {
+    // Générer un index aléatoire parmi les id des citations
+    const randomIndex = Math.floor(1 + Math.random() * this.wisdomSentences.length);
+    this.router.navigate(["/"], { queryParams: {id: randomIndex}});
+  }
+
   displayNewestSentence() {
-    this.displayedSentence = this.wisdomSentences[this.wisdomSentences.length-1].sentence;
+    this.router.navigate(["/"], { queryParams: {id: this.wisdomSentences.length}});
   }
 }
