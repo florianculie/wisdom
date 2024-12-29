@@ -1,77 +1,11 @@
 [
   {
-    "commit": "72a433172e6781157b45d4c7c54694f73e6ed73f",
-    "shortCommit": "72a4331",
+    "commit": "416fadcd10037a550a7ad046855ae0759cadfd59",
+    "shortCommit": "416fadc",
     "tree": "4e20a498557a470197bab572755460d8d2df39b1",
-    "parent": "415d7cd963ecc3a81653622be6cf11fcdde0f982",
-    "refs": "HEAD -> main, origin/main",
-    "subject": "maybe ok now ?",
-    "body": "",
-    "author": "Florian Culié",
-    "commiter": "Florian Culié"
-  },
-  {
-    "commit": "415d7cd963ecc3a81653622be6cf11fcdde0f982",
-    "shortCommit": "415d7cd",
-    "tree": "3b04bdfce778c71e1e8bb14af3d015e835379387",
-    "parent": "86420685ad1341abec17892c8790a134bf734024",
-    "refs": "",
-    "subject": "another try",
-    "body": "",
-    "author": "Florian Culié",
-    "commiter": "Florian Culié"
-  },
-  {
-    "commit": "86420685ad1341abec17892c8790a134bf734024",
-    "shortCommit": "8642068",
-    "tree": "fbc879ae41bd536a1e36de0ea118939bcb9b47af",
-    "parent": "ebd4583a30b706e289fea277369533fac4aee226",
-    "refs": "",
-    "subject": "tryout.",
-    "body": "",
-    "author": "Florian Culié",
-    "commiter": "Florian Culié"
-  },
-  {
-    "commit": "ebd4583a30b706e289fea277369533fac4aee226",
-    "shortCommit": "ebd4583",
-    "tree": "9e10548a9ce334972d15faff73f1194072e99710",
-    "parent": "46f62d9f6faa20741545da66cee7cc39e0006154",
-    "refs": "",
-    "subject": "yaml yay",
-    "body": "",
-    "author": "Florian Culié",
-    "commiter": "Florian Culié"
-  },
-  {
-    "commit": "46f62d9f6faa20741545da66cee7cc39e0006154",
-    "shortCommit": "46f62d9",
-    "tree": "0bd05ae950254d7eae09f0cf1d5a64ff2af6cc31",
-    "parent": "cee22e004e5a0b8cd953fa0b8578c22dc043b1ba",
-    "refs": "",
-    "subject": "fetch depth tweak",
-    "body": "",
-    "author": "Florian Culié",
-    "commiter": "Florian Culié"
-  },
-  {
-    "commit": "cee22e004e5a0b8cd953fa0b8578c22dc043b1ba",
-    "shortCommit": "cee22e0",
-    "tree": "eaa040392bfc4f254ff66af20ffc9909d8585b5d",
-    "parent": "f60440b30445549c5045c81a8111feef0771c8b9",
-    "refs": "",
-    "subject": "test",
-    "body": "",
-    "author": "Florian Culié",
-    "commiter": "Florian Culié"
-  },
-  {
-    "commit": "f60440b30445549c5045c81a8111feef0771c8b9",
-    "shortCommit": "f60440b",
-    "tree": "8b5c76115e9a162d419d7cf82d0b7f683ea977e9",
     "parent": "738492777ef10122a93aa0ab7073aa835360cdff",
-    "refs": "",
-    "subject": "trying to fix CI.",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Adapting YAML to generate commit log",
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
