@@ -1,10 +1,21 @@
 [
   {
+    "commit": "1a8ebc8ee00c193beed12b0fb73a256b54389f03",
+    "shortCommit": "1a8ebc8",
+    "tree": "ab4892f97042dcf58424fa3edfefe07f647229ef",
+    "parent": "416fadcd10037a550a7ad046855ae0759cadfd59",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "fixing icon color on hover.",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
     "commit": "416fadcd10037a550a7ad046855ae0759cadfd59",
     "shortCommit": "416fadc",
     "tree": "4e20a498557a470197bab572755460d8d2df39b1",
     "parent": "738492777ef10122a93aa0ab7073aa835360cdff",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Adapting YAML to generate commit log",
     "body": "",
     "author": "Florian Culié",
