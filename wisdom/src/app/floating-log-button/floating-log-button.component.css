@@ -21,8 +21,15 @@
 
 .fab:hover {
   background-color: #F6AD83;
-  color: #EC6408;
   transform: scale(1.1);
+}
+
+.fab:hover > svg > path {
+  fill: #EC6408;
+}
+
+svg:hover path {
+    fill: #EC6408;
 }
 
 /* Log Modal */
