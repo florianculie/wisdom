@@ -16,6 +16,13 @@ body {
 .center {
   font-size: 2em; /* Ajustez la taille du texte selon vos besoins */
   color: #EC6408;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button-bar {
+  padding-top: 20px;
 }
 
 .reload-button {
