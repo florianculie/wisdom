@@ -1,11 +1,11 @@
 [
   {
-    "commit": "f60440b30445549c5045c81a8111feef0771c8b9",
-    "shortCommit": "f60440b",
-    "tree": "8b5c76115e9a162d419d7cf82d0b7f683ea977e9",
+    "commit": "cee22e004e5a0b8cd953fa0b8578c22dc043b1ba",
+    "shortCommit": "cee22e0",
+    "tree": "eaa040392bfc4f254ff66af20ffc9909d8585b5d",
     "parent": "",
     "refs": "grafted, HEAD -> main, origin/main",
-    "subject": "trying to fix CI.",
+    "subject": "test",
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
