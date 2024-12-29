@@ -3,11 +3,16 @@ import { RouterOutlet } from '@angular/router';
 import WisdomSentencesJson from '../assets/WisdomSentences.json';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { FloatingLogButtonComponent } from './floating-log-button/floating-log-button.component'; // Importez le composant
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,
+    FloatingLogButtonComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

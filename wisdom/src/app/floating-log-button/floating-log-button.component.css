@@ -1,0 +1,108 @@
+/* Floating Action Button (FAB) */
+.fab {
+  position: fixed;
+  bottom: 80px; /* Ajustez cette valeur en fonction de la hauteur du footer */
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #EC6408;
+  color: #F6AD83;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: Arial, sans-serif;
+  z-index: 1100;  /* Z-index élevé pour être au-dessus de la fenêtre modale */
+}
+
+.fab:hover {
+  background-color: #F6AD83;
+  color: #EC6408;
+  transform: scale(1.1);
+}
+
+/* Log Modal */
+.log-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Ajustez la largeur selon vos besoins */
+  height: calc(100vh); /* 100% de la hauteur de l'écran moins la hauteur du footer */
+  background-color: #3D2E31;
+  color: white;
+  border-left: 2px solid #EC6408;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;  /* Z-index inférieur au FAB */
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Log Modal Content */
+.log-content {
+  flex: 1; /* Permet de remplir tout l'espace disponible */
+  overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+  overflow-x: hidden;
+  padding: 15px;
+  max-height: calc(100vh - 80px); /* La hauteur maximale doit également être ajustée */
+}
+
+/* Log Modal List Items */
+.log-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.log-content li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #F6AD83;
+  color: #3D2E31;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+
+  /* Assure que le texte passe à la ligne */
+  white-space: normal; /* Permet au texte de passer à la ligne */
+  word-wrap: break-word; /* Coupe les mots trop longs pour éviter un dépassement horizontal */
+  overflow: visible; /* Rendre tout le contenu visible */
+}
+
+.log-content li:hover {
+  background-color: #EC6408;
+  color: #F6AD83;
+}
+
+
+/* Log Modal Header */
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #EC6408;
+  color: #F6AD83;
+  font-size: 1.2em;
+}
+
+.log-header h3 {
+  margin: 0;
+  font-size: 1.4em;
+}
+
+.log-header button {
+  background: none;
+  border: none;
+  color: #F6AD83;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.log-header button:hover {
+  color: #EC6408;
+}

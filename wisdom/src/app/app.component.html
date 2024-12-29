@@ -2,6 +2,9 @@
   <div class="center">
     <p>❝{{ displayedSentence }}❞</p>
   </div>
-  <button (click)="displayRandomSentence()" class="reload-button">Une autre !</button>
-  <button (click)="displayNewestSentence()" class="reload-button">La dernière !</button>
+  <div class="button-bar">
+    <button (click)="displayRandomSentence()" class="reload-button">Une autre !</button>
+    <button (click)="displayNewestSentence()" class="reload-button">La dernière !</button>
+  </div>
+  <app-floating-log-button></app-floating-log-button>
 </div>
