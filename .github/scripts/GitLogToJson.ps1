@@ -8,3 +8,4 @@ $gldata = foreach ($commit in $prettyGitLogDump.Replace("; ",';') -split  ";", 0
           [pscustomobject]$hash
 }
 $gldata |  ConvertTo-Json | Set-Content -Encoding UTF8 -Path ".\wisdom\src\assets\WisdomLogs.json" 
+
