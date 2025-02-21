@@ -39,7 +39,7 @@ jobs:
           cd  wisdom
           npm run build:ci
       - name: Archive Build
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v4
         with: 
           name: deploy_dist
           path: wisdom/dist
@@ -50,7 +50,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Download build
-        uses: actions/download-artifact@v3.0.2
+        uses: actions/download-artifact@v4
         with: 
           name: deploy_dist
           path: dist
