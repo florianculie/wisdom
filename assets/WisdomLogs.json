@@ -1,10 +1,43 @@
 [
   {
+    "commit": "07f1269a20b30e37285dfc499b3b692e339eb00f",
+    "shortCommit": "07f1269",
+    "tree": "fee24bb3a7f6c91d9a4c62b0f1fcf8445dad76af",
+    "parent": "2f21753d4787e5f49a44c7428e5abd3c15add895",
+    "refs": "HEAD -> main, origin/main, origin/HEAD",
+    "subject": "Update CI-GithubPages.yaml",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "2f21753d4787e5f49a44c7428e5abd3c15add895",
+    "shortCommit": "2f21753",
+    "tree": "f4504c082202f34e7d4ab029828501f9a5008bb1",
+    "parent": "dcc5cdda282ffecceef80b4f24e2994dcea6e2e1",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "dcc5cdda282ffecceef80b4f24e2994dcea6e2e1",
+    "shortCommit": "dcc5cdd",
+    "tree": "15f6b9cd3c59294000297732acc4284f03ebca21",
+    "parent": "aa656a5eec425471a37cc1459415a473aa2184f7",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "aa656a5eec425471a37cc1459415a473aa2184f7",
     "shortCommit": "aa656a5",
     "tree": "5b0a8360f6e73e46a8ab44d0c6f76f4a6bf891c0",
     "parent": "cf3fc393110d9db803b280a5e805ccdce5dde9ae",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Update WisdomSentences.json",
     "body": "",
     "author": "Florian Culié",
