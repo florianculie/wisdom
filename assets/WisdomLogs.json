@@ -1,10 +1,21 @@
 [
   {
+    "commit": "c425f338366d13162db3b911e7257d6f313f29be",
+    "shortCommit": "c425f33",
+    "tree": "98c25f49eb55bd1fcda2fd216f323aeb7a8f25c0",
+    "parent": "d912abc8098c4d473cb9671d78c0a18de88befb7",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "d912abc8098c4d473cb9671d78c0a18de88befb7",
     "shortCommit": "d912abc",
     "tree": "7502d28e96c2357dda5450796d25e08f38236c62",
     "parent": "d9262dac37e0009320fa6d3170f08d2a2978c2da",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Update WisdomSentences.json",
     "body": "",
     "author": "Florian Culié",
