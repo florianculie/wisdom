@@ -1,10 +1,32 @@
 [
   {
+    "commit": "d71a84bca0bccbb58678797d13aa5da41224a848",
+    "shortCommit": "d71a84b",
+    "tree": "8e508d00135f50d669ee1425e64a5c1d8e952690",
+    "parent": "776a42b5ac3aeb821be431f262cae2f1bf89fbd3 98c72e94be92b712fc690c4ba9e184c8869fffc1",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #16 from villantoine/patch-1",
+    "body": "Update WisdomSentences.json",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "98c72e94be92b712fc690c4ba9e184c8869fffc1",
+    "shortCommit": "98c72e9",
+    "tree": "8e508d00135f50d669ee1425e64a5c1d8e952690",
+    "parent": "776a42b5ac3aeb821be431f262cae2f1bf89fbd3",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Antoine Villemagne",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "776a42b5ac3aeb821be431f262cae2f1bf89fbd3",
     "shortCommit": "776a42b",
     "tree": "66eb3c5f1cdc8a95435c35293da0a1126db8290e",
     "parent": "229cf2e5f2f147e80a94adc61f5f147846c193d8",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Update WisdomSentences.json",
     "body": "",
     "author": "Florian Culié",
