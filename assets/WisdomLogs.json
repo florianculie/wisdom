@@ -1,10 +1,21 @@
 [
   {
+    "commit": "abb634ee23d328ebfb961f902d27f97f4405c32d",
+    "shortCommit": "abb634e",
+    "tree": "70fb4a6380775132565a8bf90dedb5ddd5b02d07",
+    "parent": "66f52335ee720e62ffaa89cdd7952b2d28939a29 fc38deeb896113200955a9fedaa1409524e0e884",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #11 from florianculie/dependabot/npm_and_yarn/wisdom/multi-b811de6ecb",
+    "body": "Bump cookie, socket.io and express in /wisdom",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "66f52335ee720e62ffaa89cdd7952b2d28939a29",
     "shortCommit": "66f5233",
     "tree": "f2a1a457932f0db5e27d6d3a604d0c7d7ab9500e",
     "parent": "481185ec5a6d0598a755b28ecd79b9479239c992 149f73868fb64b7c183805f17e7d2b388cecb2b7",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #10 from florianculie/dependabot/npm_and_yarn/wisdom/multi-b4d14387f7",
     "body": "Bump body-parser and express in /wisdom",
     "author": "Florian Culié",
@@ -405,6 +416,17 @@
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
+  },
+  {
+    "commit": "fc38deeb896113200955a9fedaa1409524e0e884",
+    "shortCommit": "fc38dee",
+    "tree": "ffc48b9775c7085561dc985288406f0d188c08a9",
+    "parent": "785852bbc2d924b0efa7264254cd2fe06e9d8e2c",
+    "refs": "",
+    "subject": "Bump cookie, socket.io and express in /wisdom",
+    "body": "Bumps [cookie](https://github.com/jshttp/cookie), [socket.io](https://github.com/socketio/socket.io) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.  Updates `cookie` from 0.4.2 to 0.7.2 - [Release notes](https://github.com/jshttp/cookie/releases) - [Commits](https://github.com/jshttp/cookie/compare/v0.4.2...v0.7.2)  Updates `socket.io` from 4.7.4 to 4.8.1 - [Release notes](https://github.com/socketio/socket.io/releases) - [Changelog](https://github.com/socketio/socket.io/blob/main/CHANGELOG.md) - [Commits](https://github.com/socketio/socket.io/compare/4.7.4...socket.io@4.8.1)  Updates `express` from 4.19.2 to 4.21.2 - [Release notes](https://github.com/expressjs/express/releases) - [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md) - [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.2)  --- updated-dependencies: - dependency-name: cookie   dependency-type: indirect - dependency-name: socket.io   dependency-type: indirect - dependency-name: express   dependency-type: indirect ...  Signed-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
+    "commiter": "GitHub"
   },
   {
     "commit": "149f73868fb64b7c183805f17e7d2b388cecb2b7",
