@@ -1,10 +1,21 @@
 [
   {
+    "commit": "66f52335ee720e62ffaa89cdd7952b2d28939a29",
+    "shortCommit": "66f5233",
+    "tree": "f2a1a457932f0db5e27d6d3a604d0c7d7ab9500e",
+    "parent": "481185ec5a6d0598a755b28ecd79b9479239c992 149f73868fb64b7c183805f17e7d2b388cecb2b7",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #10 from florianculie/dependabot/npm_and_yarn/wisdom/multi-b4d14387f7",
+    "body": "Bump body-parser and express in /wisdom",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "481185ec5a6d0598a755b28ecd79b9479239c992",
     "shortCommit": "481185e",
     "tree": "f2a1a457932f0db5e27d6d3a604d0c7d7ab9500e",
     "parent": "7ece4b90b238a698b5a1939856d6fd8fffde133d dbd4af1099ac06dd2d3111c1c422bd19c1501a87",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #7 from florianculie/dependabot/npm_and_yarn/wisdom/braces-3.0.3",
     "body": "Bump braces from 3.0.2 to 3.0.3 in /wisdom",
     "author": "Florian Culié",
@@ -394,6 +405,17 @@
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
+  },
+  {
+    "commit": "149f73868fb64b7c183805f17e7d2b388cecb2b7",
+    "shortCommit": "149f738",
+    "tree": "24b403c5de62215e19f9cfbc8811323806157cc9",
+    "parent": "785852bbc2d924b0efa7264254cd2fe06e9d8e2c",
+    "refs": "",
+    "subject": "Bump body-parser and express in /wisdom",
+    "body": "Bumps [body-parser](https://github.com/expressjs/body-parser) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.  Updates `body-parser` from 1.20.2 to 1.20.3 - [Release notes](https://github.com/expressjs/body-parser/releases) - [Changelog](https://github.com/expressjs/body-parser/blob/master/HISTORY.md) - [Commits](https://github.com/expressjs/body-parser/compare/1.20.2...1.20.3)  Updates `express` from 4.19.2 to 4.21.2 - [Release notes](https://github.com/expressjs/express/releases) - [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md) - [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.2)  --- updated-dependencies: - dependency-name: body-parser   dependency-type: indirect - dependency-name: express   dependency-type: indirect ...  Signed-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
+    "commiter": "GitHub"
   },
   {
     "commit": "dbd4af1099ac06dd2d3111c1c422bd19c1501a87",
