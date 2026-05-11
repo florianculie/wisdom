@@ -1,10 +1,21 @@
 [
   {
+    "commit": "481185ec5a6d0598a755b28ecd79b9479239c992",
+    "shortCommit": "481185e",
+    "tree": "f2a1a457932f0db5e27d6d3a604d0c7d7ab9500e",
+    "parent": "7ece4b90b238a698b5a1939856d6fd8fffde133d dbd4af1099ac06dd2d3111c1c422bd19c1501a87",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #7 from florianculie/dependabot/npm_and_yarn/wisdom/braces-3.0.3",
+    "body": "Bump braces from 3.0.2 to 3.0.3 in /wisdom",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "7ece4b90b238a698b5a1939856d6fd8fffde133d",
     "shortCommit": "7ece4b9",
     "tree": "5c63f707d6c5c7ef4b3e76531cc4168b536a8112",
     "parent": "48200dd007b1c9a0b85ad339ea387150d9fcfa15 a4d5f68c6879ace5880a719d05b3c572e48c4f28",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #8 from florianculie/dependabot/npm_and_yarn/wisdom/multi-db17b8dbde",
     "body": "Bump send and express in /wisdom",
     "author": "Florian Culié",
@@ -383,6 +394,17 @@
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
+  },
+  {
+    "commit": "dbd4af1099ac06dd2d3111c1c422bd19c1501a87",
+    "shortCommit": "dbd4af1",
+    "tree": "394250da526061f2afbecc104d8d7d399b0960cc",
+    "parent": "785852bbc2d924b0efa7264254cd2fe06e9d8e2c",
+    "refs": "",
+    "subject": "Bump braces from 3.0.2 to 3.0.3 in /wisdom",
+    "body": "Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3. - [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md) - [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)  --- updated-dependencies: - dependency-name: braces   dependency-type: indirect ...  Signed-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
+    "commiter": "GitHub"
   },
   {
     "commit": "a4d5f68c6879ace5880a719d05b3c572e48c4f28",
