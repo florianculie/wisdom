@@ -1,10 +1,21 @@
 [
   {
+    "commit": "7ece4b90b238a698b5a1939856d6fd8fffde133d",
+    "shortCommit": "7ece4b9",
+    "tree": "5c63f707d6c5c7ef4b3e76531cc4168b536a8112",
+    "parent": "48200dd007b1c9a0b85ad339ea387150d9fcfa15 a4d5f68c6879ace5880a719d05b3c572e48c4f28",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #8 from florianculie/dependabot/npm_and_yarn/wisdom/multi-db17b8dbde",
+    "body": "Bump send and express in /wisdom",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "48200dd007b1c9a0b85ad339ea387150d9fcfa15",
     "shortCommit": "48200dd",
     "tree": "5c63f707d6c5c7ef4b3e76531cc4168b536a8112",
     "parent": "d71a84bca0bccbb58678797d13aa5da41224a848 705820687e96ae7adb25e56d3580e62901f53cdf",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #6 from florianculie/dependabot/npm_and_yarn/wisdom/multi-63fbbd1def",
     "body": "Bump serve-static and express in /wisdom",
     "author": "Florian Culié",
@@ -372,6 +383,17 @@
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
+  },
+  {
+    "commit": "a4d5f68c6879ace5880a719d05b3c572e48c4f28",
+    "shortCommit": "a4d5f68",
+    "tree": "24b403c5de62215e19f9cfbc8811323806157cc9",
+    "parent": "785852bbc2d924b0efa7264254cd2fe06e9d8e2c",
+    "refs": "",
+    "subject": "Bump send and express in /wisdom",
+    "body": "Bumps [send](https://github.com/pillarjs/send) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.  Updates `send` from 0.18.0 to 0.19.0 - [Release notes](https://github.com/pillarjs/send/releases) - [Changelog](https://github.com/pillarjs/send/blob/master/HISTORY.md) - [Commits](https://github.com/pillarjs/send/compare/0.18.0...0.19.0)  Updates `express` from 4.19.2 to 4.21.2 - [Release notes](https://github.com/expressjs/express/releases) - [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md) - [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.2)  --- updated-dependencies: - dependency-name: send   dependency-type: indirect - dependency-name: express   dependency-type: indirect ...  Signed-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
+    "commiter": "GitHub"
   },
   {
     "commit": "705820687e96ae7adb25e56d3580e62901f53cdf",
