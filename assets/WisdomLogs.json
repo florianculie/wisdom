@@ -1,10 +1,21 @@
 [
   {
+    "commit": "48200dd007b1c9a0b85ad339ea387150d9fcfa15",
+    "shortCommit": "48200dd",
+    "tree": "5c63f707d6c5c7ef4b3e76531cc4168b536a8112",
+    "parent": "d71a84bca0bccbb58678797d13aa5da41224a848 705820687e96ae7adb25e56d3580e62901f53cdf",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #6 from florianculie/dependabot/npm_and_yarn/wisdom/multi-63fbbd1def",
+    "body": "Bump serve-static and express in /wisdom",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "d71a84bca0bccbb58678797d13aa5da41224a848",
     "shortCommit": "d71a84b",
     "tree": "8e508d00135f50d669ee1425e64a5c1d8e952690",
     "parent": "776a42b5ac3aeb821be431f262cae2f1bf89fbd3 98c72e94be92b712fc690c4ba9e184c8869fffc1",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #16 from villantoine/patch-1",
     "body": "Update WisdomSentences.json",
     "author": "Florian Culié",
@@ -361,6 +372,17 @@
     "body": "",
     "author": "Florian Culié",
     "commiter": "Florian Culié"
+  },
+  {
+    "commit": "705820687e96ae7adb25e56d3580e62901f53cdf",
+    "shortCommit": "7058206",
+    "tree": "24b403c5de62215e19f9cfbc8811323806157cc9",
+    "parent": "785852bbc2d924b0efa7264254cd2fe06e9d8e2c",
+    "refs": "",
+    "subject": "Bump serve-static and express in /wisdom",
+    "body": "Bumps [serve-static](https://github.com/expressjs/serve-static) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.  Updates `serve-static` from 1.15.0 to 1.16.2 - [Release notes](https://github.com/expressjs/serve-static/releases) - [Changelog](https://github.com/expressjs/serve-static/blob/v1.16.2/HISTORY.md) - [Commits](https://github.com/expressjs/serve-static/compare/v1.15.0...v1.16.2)  Updates `express` from 4.19.2 to 4.21.2 - [Release notes](https://github.com/expressjs/express/releases) - [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md) - [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.2)  --- updated-dependencies: - dependency-name: serve-static   dependency-type: indirect - dependency-name: express   dependency-type: indirect ...  Signed-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
+    "commiter": "GitHub"
   },
   {
     "commit": "785852bbc2d924b0efa7264254cd2fe06e9d8e2c",
