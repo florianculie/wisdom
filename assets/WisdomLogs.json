@@ -1,10 +1,109 @@
 [
   {
+    "commit": "ae6351f38812ad2c9c8a1e3f2a584568b10aef58",
+    "shortCommit": "ae6351f",
+    "tree": "a474b750b04a381ba53e1564155ea3d24803b1f6",
+    "parent": "44a3ca61342ab4be98d32361dec2514127531e72 860c634efb5f113d2a584c4ce13573b39f5ab06b",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #46 from florianculie/fix/align-build-angular-17",
+    "body": "fix: align Angular toolchain on 17.3 and restore valid sentences JSON",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "860c634efb5f113d2a584c4ce13573b39f5ab06b",
+    "shortCommit": "860c634",
+    "tree": "a474b750b04a381ba53e1564155ea3d24803b1f6",
+    "parent": "9fdef0811c123832256431e730d60f7c37f54c2b",
+    "refs": "",
+    "subject": "fix: restore valid JSON in WisdomSentences",
+    "body": "Missing comma after sentence 47 broke the build.  Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
+    "commit": "9fdef0811c123832256431e730d60f7c37f54c2b",
+    "shortCommit": "9fdef08",
+    "tree": "868f2d72f0eab192a7882018b3181b8c4ff92a6b",
+    "parent": "44a3ca61342ab4be98d32361dec2514127531e72",
+    "refs": "",
+    "subject": "fix: align Angular toolchain on 17.3",
+    "body": "build-angular 19 was paired with Angular CLI 17, which broke npm ci (peer conflict) and ng build (builder not found). Align build-angular, CLI and framework packages on 17.3.  Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
+    "commit": "44a3ca61342ab4be98d32361dec2514127531e72",
+    "shortCommit": "44a3ca6",
+    "tree": "ef51d193a20698379bcb7ae2adfeaa0be1cfd35d",
+    "parent": "5da1312c481cd645c73ae60fec2fe6e7614f6c7c",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "5da1312c481cd645c73ae60fec2fe6e7614f6c7c",
+    "shortCommit": "5da1312",
+    "tree": "5932ccbf9e71b2d715abc17933dc6712a93c0dc6",
+    "parent": "b51702180ca4d830c748907fea80319c5291fd34",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "b51702180ca4d830c748907fea80319c5291fd34",
+    "shortCommit": "b517021",
+    "tree": "58b0f99b2fd02670414f62535bc7789d37607369",
+    "parent": "af9b08b333b7bcd33827e98a795fa51efdac3007",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "af9b08b333b7bcd33827e98a795fa51efdac3007",
+    "shortCommit": "af9b08b",
+    "tree": "ca7e2791b7869b2c50e05b5c750bc8939cd9d482",
+    "parent": "dd4ef2e86e2ccfd134918d7f5fad0663f849bf08",
+    "refs": "",
+    "subject": "Update WisdomSentences.json",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "dd4ef2e86e2ccfd134918d7f5fad0663f849bf08",
+    "shortCommit": "dd4ef2e",
+    "tree": "150c516338adebb0bf13243bee50544dad4a1796",
+    "parent": "9c131026a19bb91fb8c2f4866715ec938e1a8c96 0ef42ab56e39aff842180a0bddf77887b0583fd8",
+    "refs": "",
+    "subject": "Merge pull request #14 from florianculie/dependabot/npm_and_yarn/wisdom/multi-f2b383cc78",
+    "body": "Bump vite and @angular-devkit/build-angular in /wisdom",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "0ef42ab56e39aff842180a0bddf77887b0583fd8",
+    "shortCommit": "0ef42ab",
+    "tree": "150c516338adebb0bf13243bee50544dad4a1796",
+    "parent": "8486c6b049d107d4fbe73c8a9c6de55e1f7eb147 9c131026a19bb91fb8c2f4866715ec938e1a8c96",
+    "refs": "",
+    "subject": "Merge branch 'main' into dependabot/npm_and_yarn/wisdom/multi-f2b383cc78",
+    "body": "",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
     "commit": "9c131026a19bb91fb8c2f4866715ec938e1a8c96",
     "shortCommit": "9c13102",
     "tree": "521bc1b550d43b84a04bf3554d905eaa48aa93b3",
     "parent": "abb634ee23d328ebfb961f902d27f97f4405c32d fc065e0574f8a17af1e63366109f14a60e1ecf2c",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #12 from florianculie/dependabot/npm_and_yarn/wisdom/rollup-4.29.1",
     "body": "Bump rollup from 4.9.6 to 4.29.1 in /wisdom",
     "author": "Florian Culié",
@@ -305,6 +404,17 @@
     "subject": "Update WisdomSentences.json",
     "body": "",
     "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "8486c6b049d107d4fbe73c8a9c6de55e1f7eb147",
+    "shortCommit": "8486c6b",
+    "tree": "1ab4e73069b327a13aa320466048095f6c4917f3",
+    "parent": "cf3fc393110d9db803b280a5e805ccdce5dde9ae",
+    "refs": "",
+    "subject": "Bump vite and @angular-devkit/build-angular in /wisdom",
+    "body": "Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) to 6.0.11 and updates ancestor dependency [@angular-devkit/build-angular](https://github.com/angular/angular-cli). These dependencies need to be updated together.   Updates `vite` from 5.0.12 to 6.0.11 - [Release notes](https://github.com/vitejs/vite/releases) - [Changelog](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md) - [Commits](https://github.com/vitejs/vite/commits/v6.0.11/packages/vite)  Updates `@angular-devkit/build-angular` from 17.1.1 to 19.1.3 - [Release notes](https://github.com/angular/angular-cli/releases) - [Changelog](https://github.com/angular/angular-cli/blob/main/CHANGELOG.md) - [Commits](https://github.com/angular/angular-cli/compare/17.1.1...19.1.3)  --- updated-dependencies: - dependency-name: vite   dependency-type: indirect - dependency-name: \"@angular-devkit/build-angular\"   dependency-type: direct:development ...  Signed-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
     "commiter": "GitHub"
   },
   {
