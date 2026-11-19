@@ -1,12 +1,9 @@
 import { Component, HostListener, NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import WisdomLogs from '../../assets/WisdomLogs.json';
 
 @Component({
   selector: 'app-floating-log-button',
-  imports: [
-    CommonModule
-  ],
+  imports: [],
   templateUrl: './floating-log-button.component.html',
   styleUrls: ['./floating-log-button.component.css']
 })
