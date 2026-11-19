@@ -1,10 +1,87 @@
 [
   {
+    "commit": "c8872f439b453775e264a1e38299acb2cf117d78",
+    "shortCommit": "c8872f4",
+    "tree": "b2d7d30d0d1c0ea06dbce557e6fdf73fb81a977a",
+    "parent": "64b74419b387a02d8d25d575437428d26e85ddb4 12f7ce5f06fba9fed4f03b3f4364cf0b7d4ad1e0",
+    "refs": "HEAD -> main, origin/main",
+    "subject": "Merge pull request #50 from florianculie/fix/ci-node-22",
+    "body": "fix: run the GitHub Pages build on Node 22",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "12f7ce5f06fba9fed4f03b3f4364cf0b7d4ad1e0",
+    "shortCommit": "12f7ce5",
+    "tree": "b2d7d30d0d1c0ea06dbce557e6fdf73fb81a977a",
+    "parent": "64b74419b387a02d8d25d575437428d26e85ddb4",
+    "refs": "",
+    "subject": "fix: run the GitHub Pages build on Node 22",
+    "body": "Angular CLI 21 requires Node ^20.19, ^22.12 or >=24. Node 21 makes yargs 18 throw ERR_REQUIRE_ESM during ng build.  Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
+    "commit": "64b74419b387a02d8d25d575437428d26e85ddb4",
+    "shortCommit": "64b7441",
+    "tree": "98b0d9264f216ee5a9297e251417ee9a92aa4185",
+    "parent": "639059bbca67df31d9bad968997a5a8e5f4ceb0f cf608af012fa2fc8afe48a06d2e6733db8010b1e",
+    "refs": "",
+    "subject": "Merge pull request #48 from florianculie/feature/angular-21",
+    "body": "chore: update Angular to 21.2",
+    "author": "Florian Culié",
+    "commiter": "GitHub"
+  },
+  {
+    "commit": "cf608af012fa2fc8afe48a06d2e6733db8010b1e",
+    "shortCommit": "cf608af",
+    "tree": "98b0d9264f216ee5a9297e251417ee9a92aa4185",
+    "parent": "61bef4b2cbf754f14e9379e9aaa52f6bd01ea49d",
+    "refs": "",
+    "subject": "chore: update Angular to 21",
+    "body": "Includes the core control-flow and bootstrap migrations, ngx-toastr 20 (Angular 21 peer) and a non-forced npm audit fix.  Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
+    "commit": "61bef4b2cbf754f14e9379e9aaa52f6bd01ea49d",
+    "shortCommit": "61bef4b",
+    "tree": "e5bae0bd04ddb2cee7a4beb9dc302b745650d2bd",
+    "parent": "1b2d79968aa95bcc40e6d5d08d106ac7ab436afc",
+    "refs": "",
+    "subject": "chore: update Angular to 20",
+    "body": "Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
+    "commit": "1b2d79968aa95bcc40e6d5d08d106ac7ab436afc",
+    "shortCommit": "1b2d799",
+    "tree": "defa24fef21129ab767c8d1a4426b62f0325305b",
+    "parent": "d2e4af4346bea89280a04ca655d32ab70c7b9f5b",
+    "refs": "",
+    "subject": "chore: update Angular to 19",
+    "body": "Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
+    "commit": "d2e4af4346bea89280a04ca655d32ab70c7b9f5b",
+    "shortCommit": "d2e4af4",
+    "tree": "21c89894430b5fad3aa66eff07cb945956094eed",
+    "parent": "639059bbca67df31d9bad968997a5a8e5f4ceb0f",
+    "refs": "",
+    "subject": "chore: update Angular to 18",
+    "body": "Co-authored-by: Cursor <cursoragent@cursor.com> ",
+    "author": "Florian Culié",
+    "commiter": "Florian Culié"
+  },
+  {
     "commit": "639059bbca67df31d9bad968997a5a8e5f4ceb0f",
     "shortCommit": "639059b",
     "tree": "25e133a54534120e2bc685a0a9d6973530665965",
     "parent": "ae6351f38812ad2c9c8a1e3f2a584568b10aef58 e8023aa4901930c2665fa561a59dbc68a67b8191",
-    "refs": "HEAD -> main, origin/main",
+    "refs": "",
     "subject": "Merge pull request #47 from florianculie/chore/apply-dependabot-lockfile-updates",
     "body": "chore(deps): apply lockfile-only Dependabot updates",
     "author": "Florian Culié",
