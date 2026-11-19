@@ -4,18 +4,22 @@
 </div>
 
 <!-- Fenêtre modale du log -->
-<div *ngIf="isLogModalOpen" class="log-modal">
-  <div class="log-modal-content" (click)="$event.stopPropagation()">
-    <!-- Contenu de la fenêtre modale -->
-    <div class="log-header">
-      <h3>Commit History</h3>
-    </div>
-    <div class="log-content">
-      <ul>
-        <li *ngFor="let wisdomLog of wisdomLogs">
-          <a href="https://github.com/florianculie/wisdom/commit/{{wisdomLog.commit}}">{{wisdomLog.shortCommit}}</a> - {{ wisdomLog.author }} <br/> {{wisdomLog.subject}}
-        </li>
-      </ul>
+@if (isLogModalOpen) {
+  <div class="log-modal">
+    <div class="log-modal-content" (click)="$event.stopPropagation()">
+      <!-- Contenu de la fenêtre modale -->
+      <div class="log-header">
+        <h3>Commit History</h3>
+      </div>
+      <div class="log-content">
+        <ul>
+          @for (wisdomLog of wisdomLogs; track wisdomLog) {
+            <li>
+              <a href="https://github.com/florianculie/wisdom/commit/{{wisdomLog.commit}}">{{wisdomLog.shortCommit}}</a> - {{ wisdomLog.author }} <br/> {{wisdomLog.subject}}
+            </li>
+          }
+        </ul>
+      </div>
     </div>
   </div>
-</div>
+}
