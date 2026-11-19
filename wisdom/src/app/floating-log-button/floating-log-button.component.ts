@@ -4,7 +4,6 @@ import WisdomLogs from '../../assets/WisdomLogs.json';
 
 @Component({
   selector: 'app-floating-log-button',
-  standalone: true,
   imports: [
     CommonModule
   ],

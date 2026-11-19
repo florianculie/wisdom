@@ -8,7 +8,6 @@ import { FloatingLogButtonComponent } from './floating-log-button/floating-log-b
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   imports: [
     RouterOutlet,
     FloatingLogButtonComponent,
